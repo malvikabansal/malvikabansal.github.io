@@ -1,0 +1,151 @@
+html,
+body {
+  height: 100%;
+/*  background-color: #333;*/
+  background-color: #ffffff !important;
+}
+
+#ww {
+    background: url(../assets/images/cover_pic.jpg);
+/*    background-color: rgba(0,0,0,0.5);*/
+    color: white;
+    background-size: 100%;
+    background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    background-position: center center;
+    vertical-align: top;
+    
+    display: table;
+    width: 100%;
+    height: 100%; /* For at least Firefox */
+    min-height: 100%;
+}
+
+#aboutSection {
+    background-color: white;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+p.descText {
+    color: #ecf0f1 !important;
+}
+
+span.subHeaders {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+p.aboutText {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+}
+
+p.workInfo {
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-style: bold;
+    text-align: justify;
+}
+
+span.workTitle {
+    font-size: 16px;
+    font-style: bold;
+    font-family: 'Lato', sans-serif;
+    color: #2E2E2E;
+    text-align: left;
+    text-justify: inter-word;
+}
+
+span.workDate {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: #2E2E2E;
+    text-align: right;
+    text-justify: inter-word;
+}
+
+.activityWidget {
+    text-align: center;
+}
+img.activityIcons {
+    margin-bottom: 10px;
+}
+
+p.activityText {
+    margin-top: 5px;
+    font-family: 'Lato', sans-serif;
+    font-size: 18px;
+    font-style: bold;
+}
+
+span.activityFooterCite {
+    font-style: italic;
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    color: #585858;
+}
+
+/* Media Queries for text adjustments */
+@media (max-width: 498px) {
+        
+    span.subHeaders {
+        font-size: 19px;
+    }
+    
+    p.aboutText {
+        font-size: 15px;
+    }    
+}
+
+@media (max-width: 599px) {
+    #aboutSection {
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+}
+
+@media (min-width: 600px) {
+    #aboutSection {
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+}
+
+@media (min-width: 499px) {
+    
+    span.subHeaders {
+        font-size: 20px;
+    }
+    
+    p.aboutText {
+        font-size: 16px;
+    }    
+}
+
+@media (min-width: 768px) {
+    
+    span.subHeaders {
+        font-size: 22px;
+    }
+    
+    p.aboutText {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 992px) {
+    
+    span.subHeaders {
+        font-size: 24px;
+    }
+    
+    p.aboutText {
+        font-size: 20px;
+    }
+}

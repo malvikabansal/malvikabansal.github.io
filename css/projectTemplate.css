@@ -1,0 +1,170 @@
+h2.projectTitle {
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: 300 !important;
+}
+
+h2.projectSubTitle {
+    font-family: 'Raleway', sans-serif !important;
+    font-weight: bold !important;
+}
+
+h4.projectSubSubTitle {
+    font-family: 'Lato', sans-serif !important;
+    font-weight: 300 !important;
+    color: #585858;
+}
+
+.projectContent {
+    background-color: white;
+}
+
+#ww {
+    padding-bottom: 30px !important;
+}
+
+span.subHeaders {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+}
+
+p.contentText {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.bulletpoints {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.reportBtn {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.blogImagesResponsive {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 500px;
+    background-size: 100%;
+    background-size: cover;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+    background-position: center center;
+    vertical-align: top;
+    background-image: url(../assets/images/portfolio/culami/2.png);
+}
+
+
+/* Media Queries for text adjustments */
+@media (max-width: 498px) {
+    h2.projectTitle {
+        font-size: 32px !important;
+    }
+    
+    h2.projectSubTitle {
+        font-size: 16px !important;
+    }
+    
+    span.subHeaders {
+        font-size: 19px;
+    }
+    
+    p.contentText {
+        font-size: 15px;
+    }
+    
+    .bulletpoints {
+        font-size: 15px;
+    }
+}
+
+@media (min-width: 499px) {
+    h2.projectTitle {
+        font-size: 36px !important;
+    }
+    
+    h2.projectSubTitle {
+        font-size: 18px !important;
+    }
+    
+    span.subHeaders {
+        font-size: 20px;
+    }
+    
+    p.contentText {
+        font-size: 16px;
+    }
+    
+    .bulletpoints {
+        font-size: 16px;
+    }
+}
+
+@media (min-width: 768px) {
+    h2.projectTitle {
+        font-size: 40px !important;
+    }
+    
+    h2.projectSubTitle {
+        font-size: 20px !important;
+    }
+    
+    span.subHeaders {
+        font-size: 22px;
+    }
+    
+    p.contentText {
+        font-size: 18px;
+    }
+    
+    .bulletpoints {
+        font-size: 18px;
+    }
+  
+}
+
+@media (min-width: 992px) {
+    h2.projectTitle {
+        font-size: 48px !important;
+    }
+    
+    h2.projectSubTitle {
+        font-size: 24px !important;
+    }
+    
+    span.subHeaders {
+        font-size: 24px;
+    }
+    
+    p.contentText {
+        font-size: 20px;
+    }
+    
+    .bulletpoints {
+        font-size: 20px;
+    }
+}
+
+/* Media Queries for text adjustments */
+@media (max-width: 599px) {
+    .blogImagesResponsive {
+        height: 300px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 399px) {
+    .blogImagesResponsive {
+        height: 250px;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
