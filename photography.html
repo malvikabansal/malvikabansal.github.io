@@ -1,0 +1,337 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<title>Malvika Bansal Portfolio</title>
+		<meta name="description" content="Malvika Bansal is a Master's student in the School of Informatics & Computing at IUPUI. She holds a bachelor's degree in Computer Engineering from University of Pune, India. Her research interests lie in exploring and designing better UX with web and natural interfaces and using front-end technologies.">
+		<meta name="author" content="Malvika Bansal">
+        <meta name="keywords" content="Human Computer Interaction, Indiana University, IUPUI, Malvika Bansal, User Experience, Gestures, Interaction Design, Kinect, Natural User Interface, Design, Usability, Portfolio, UX, IxD"/>
+
+		<!-- Mobile Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="images/favicon.ico">
+
+		<!-- Web Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
+
+		<!-- Bootstrap core CSS -->
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+		<!-- Font Awesome CSS -->
+		<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+		<!-- Plugins -->
+		<link href="css/animations.css" rel="stylesheet">
+
+		<!-- Worthy core CSS file -->
+		<link href="css/style.css" rel="stylesheet">
+
+		<!-- Custom css --> 
+		<link href="css/custom.css" rel="stylesheet">
+        
+        <!-- Lightbox CSS --> 
+        <link href="css/lightbox.cssl" rel="stylesheet">
+        
+	</head>
+
+	<body class="no-trans">
+		<!-- scrollToTop -->
+		<!-- ================ -->
+		<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
+
+		<!-- header start -->
+		<!-- ================ --> 
+		<header class="header fixed clearfix navbar navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+
+						<!-- header-left start -->
+						<!-- ================ -->
+						<div class="header-left clearfix">
+
+							<!-- logo -->
+							<div class="logo smooth-scroll">
+								<a href="#banner"><img id="logo" src="images/M_logo.png" alt="Worthy"></a>
+							</div>
+
+							<!-- name-and-slogan -->
+							<div class="site-name-and-slogan smooth-scroll">
+								<div class="site-name"><a href="#banner">Malvika Bansal</a></div>
+								<div class="site-slogan">Aspiring UX/Interaction Designer</div>
+							</div>
+
+						</div>
+						<!-- header-left end -->
+
+					</div>
+					<div class="col-md-8">
+
+						<!-- header-right start -->
+						<!-- ================ -->
+						<div class="header-right clearfix">
+
+							<!-- main-navigation start -->
+							<!-- ================ -->
+							<div class="main-navigation animated">
+
+								<!-- navbar start -->
+								<!-- ================ -->
+								<nav class="navbar navbar-default" role="navigation">
+									<div class="container-fluid">
+
+										<!-- Toggle get grouped for better mobile display -->
+										<div class="navbar-header">
+											<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+												<span class="sr-only">Toggle navigation</span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+											</button>
+										</div>
+
+										<!-- Collect the nav links, forms, and other content for toggling -->
+										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
+											<ul class="nav navbar-nav navbar-right">
+												<li class="active"><a href="index.html#banner">Home</a></li>
+												<li><a href="index.html#about">About</a></li>
+												<!--<li><a href="#services">Services</a></li>-->
+												<li><a href="index.html#portfolio">Portfolio</a></li>
+												<!--<li><a href="#clients">Clients</a></li>-->
+<!--												<li><a href="files/Malvika_Bansal_Resume.pdf">Resume</a></li>-->
+                                                <li><a href="#contact">Contact</a></li>
+											</ul>
+										</div>
+
+									</div>
+								</nav>
+								<!-- navbar end -->
+
+							</div>
+							<!-- main-navigation end -->
+
+						</div>
+						<!-- header-right end -->
+
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- header end -->
+
+		<!-- banner start -->
+		<!-- ================ -->
+		<div id="banner" class="banner">
+			<div class="banner-image"></div>
+			<div class="banner-caption">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
+							<h1 class="text-center"><span>Photography</span></h1>
+							<p class="lead text-center">An attempt to celebrate the hidden shutterbug in me.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- banner end -->
+        
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="section" ng-app="PhotoPostGenerator" ng-controller="PhotoPostController as postCntrl">
+			<div class="container" >
+				<h1 class="text-center title" id="portfolio">Photo Gallery</h1>
+				<div class="separator"></div>
+				<p class="lead text-center">Wildlife, Sunsets, Landscapes, Kittens...<br />Showcasing the best my humble lens could capture.</p>
+				<br>			
+				<div class="row object-non-visible" data-animation-effect="fadeIn">
+					<div class="col-md-12">
+
+						<!-- isotope filters start -->
+						<div class="filters text-center">
+							<ul class="nav nav-pills">
+								<li class="active"><a href="#" data-filter="*">All</a></li>
+								<li><a href="#" data-filter=".int-design">Interaction Design</a></li>
+								<li><a href="#" data-filter=".usability-eval">Usability Evaluation</a></li>
+								<li><a href="#" data-filter=".research">HCI Research</a></li>
+							</ul>
+						</div>
+						<!-- isotope filters end -->
+                        
+                        <div class="isotope-container row grid-space-20" ng-controller="MainCtrl">
+                            <div class="col-sm-6 col-md-3 isotope-item int-design" ng-repeat="photopost in postCntrl.posts">
+                                <a href="{{photopost.photoThumbnailSrc}}" data-lightbox="image-1" data-title="My caption">
+                                    <img ng-src="{{photopost.photoThumbnailSrc}}" class="img-responsive" alt="" ng-click="toggleModal()">
+                                </a>
+                            </div>
+                        </div>
+                        
+<!--                        <a class="example-image-link" href="images/gallery/img6.jpg" data-lightbox="example-1"><img class="example-image" src="images/gallery/img6.jpg" alt="image-1" /></a>-->
+
+						<!-- portfolio items start -->
+						<div class="isotope-container row grid-space-20">
+							<div class="col-sm-6 col-md-3 isotope-item int-design" ng-repeat="photopost in postCntrl.posts">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img ng-src="{{photopost.photoThumbnailSrc}}" class="img-responsive" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-1">
+											<i class="fa fa-search-plus"></i>
+											<span>{{photopost.photoCategory}}</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-1">{{photopost.photoSubTitle}}</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-1" tabindex="-1" role="dialog" aria-labelledby="project-1-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-1-label">{{photopost.photoCaption}}</h4>
+											</div>
+                                            <div class="modal-body">
+												<img ng-src="{{photopost.photoSrc}}"/>
+                                            </div>
+											<div class="modal-footer">
+                                                <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+						</div>
+						<!-- portfolio items end -->
+					
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+
+		<!-- footer start -->
+		<!-- ================ -->
+        <footer id="footer">
+
+			<!-- .footer start -->
+			<!-- ================ -->
+			<div class="footer section">
+            <!--<div class="section translucent-bg bg-image-2 pb-clear">-->
+				<div class="container">
+					<h1 class="title text-center" id="contact">Contact Me</h1>
+<!--					<div class="space"></div>-->
+					<div class="row">
+                        <div class="col-sm-3"></div>
+                        <div class="col-sm-6">
+							<div class="footer-content">
+								<p class="large text-center">If my work and expertise interests you, please feel free to get in touch with me!</p>
+<!--
+								<ul class="list-icons">
+									<li><i class="fa fa-map-marker pr-10"></i> Indianapolis, IN - USA</li>
+									<li><i class="fa fa-phone pr-10"></i> +1 317-701-7963</li>
+									<li><i class="fa fa-fax pr-10"></i> +00 1234567891 </li>
+									<li><i class="fa fa-envelope-o pr-10"></i> malvikabansal10@gmail.com</li>
+								</ul>
+-->
+								<ul class="social-links text-center">
+									<li class="linkedin"><a target="_blank" href="http://in.linkedin.com/in/malvikabansal"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="facebook"><a target="_blank" href="https://www.facebook.com/malvika.bansal.3"><i class="fa fa-facebook"></i></a></li>
+									<!--<li class="twitter"><a target="_blank" href="https://twitter.com/HtmlcoderMe"><i class="fa fa-twitter"></i></a></li>-->
+									<li class="googleplus"><a target="_blank" href="https://plus.google.com/u/0/+malvikabansal1007/about"><i class="fa fa-google-plus"></i></a></li>
+									<!--<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>-->
+									<!--<li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube"></i></a></li>-->
+									<li class="flickr"><a target="_blank" href="https://www.flickr.com/photos/malvikabansal/"><i class="fa fa-flickr"></i></a></li>
+									<!--<li class="pinterest"><a target="_blank" href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li>-->
+								</ul>
+							</div>
+						</div>
+                        <div class="col-sm-3"></div>
+<!--
+						<div class="col-sm-6">
+							<div class="footer-content">
+								<form role="form" id="footer-form">
+									<div class="form-group has-feedback">
+										<label class="sr-only" for="name2">Name</label>
+										<input type="text" class="form-control" id="name2" placeholder="Name" name="name2" required>
+										<i class="fa fa-user form-control-feedback"></i>
+									</div>
+									<div class="form-group has-feedback">
+										<label class="sr-only" for="email2">Email address</label>
+										<input type="email" class="form-control" id="email2" placeholder="Enter email" name="email2" required>
+										<i class="fa fa-envelope form-control-feedback"></i>
+									</div>
+									<div class="form-group has-feedback">
+										<label class="sr-only" for="message2">Message</label>
+										<textarea class="form-control" rows="8" id="message2" placeholder="Message" name="message2" required></textarea>
+										<i class="fa fa-pencil form-control-feedback"></i>
+									</div>
+									<input type="submit" id="submit" value="Send" class="btn btn-default">
+								</form>
+							</div>
+						</div>
+-->
+					</div>
+				</div>
+			</div>
+			<!-- .footer end -->
+
+			<!-- .subfooter start -->
+			<!-- ================ -->
+			<div class="subfooter" style="background: #2980b9; color: white;">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<p class="text-center">Copyright © 2015 Malvika Bansal</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- .subfooter end -->
+
+		</footer>
+		<!-- footer end -->
+
+		<!-- JavaScript files placed at the end of the document so the pages load faster
+		================================================== -->
+		<!-- Jquery and Bootstap core js files -->
+		<script type="text/javascript" src="plugins/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- Modernizr javascript -->
+		<script type="text/javascript" src="plugins/modernizr.js"></script>
+
+		<!-- Isotope javascript -->
+		<script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
+		
+		<!-- Backstretch javascript -->
+		<script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
+
+		<!-- Appear javascript -->
+		<script type="text/javascript" src="plugins/jquery.appear.js"></script>
+
+		<!-- Initialization of Plugins -->
+		<script type="text/javascript" src="js/template.js"></script>
+
+		<!-- Custom Scripts -->
+		<script type="text/javascript" src="js/custom.js"></script>
+    
+        <!-- Contact Form Script -->
+		<script type="text/javascript" src="contact_form.js"></script>
+        
+         <!-- Contact AngularJS Script -->
+        <script src="js/angular.min.js"></script>
+        <script src="js/photoPostGenerator.js"></script>
+        <script src="modalGenerator.js"></script>
+        
+        <!-- Lightbox JS script -->
+        <script src="js/lightbox.jsl"></script>
+        <script src="js/lightbox-plus-jquery.min.js"></script>
+
+	</body>
+</html>

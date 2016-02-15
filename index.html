@@ -1,327 +1,1166 @@
 <!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
 <html lang="en">
-<head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
+<!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<title>Malvika Bansal Portfolio</title>
+		<meta name="description" content="Malvika Bansal is a Master's student in the School of Informatics & Computing at IUPUI. She holds a bachelor's degree in Computer Engineering from University of Pune, India. Her research interests lie in exploring and designing better UX with web and natural interfaces and using front-end technologies.">
+		<meta name="author" content="Malvika Bansal">
+        <meta name="keywords" content="Human Computer Interaction, Indiana University, IUPUI, Malvika Bansal, User Experience, Gestures, Interaction Design, Kinect, Natural User Interface, Design, Usability, Portfolio, UX, IxD"/>
 
-    <title>Shivin Saxena Portfolio</title>
+		<!-- Mobile Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <!-- Reset CSS -->
-    <link href="css/html5reset-1.6.1.css" rel="stylesheet">
-    
-    <!-- Bootstrap core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    
-    <!-- Custom styles for this template -->
-    <link href="css/sticky-footer.css" rel="stylesheet">
-    <link href="css/customStyles.css" rel="stylesheet">
-    <link href="css/cover.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,300,700' rel='stylesheet' type='text/css'>
-    
-    
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="images/favicon.ico">
 
-    <!-- Custom styles for this template -->
-<!--    <link href="starter-template.css" rel="stylesheet">-->
+		<!-- Web Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+		<!-- Bootstrap core CSS -->
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
 
-</head>
+		<!-- Font Awesome CSS -->
+		<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
 
-<body data-spy="scroll" data-target="#navbar" data-offset="60">
+		<!-- Plugins -->
+		<link href="css/animations.css" rel="stylesheet">
 
-    <div class="masthead clearfix navbar-fixed-top" id="customNavbar"> 
-        <nav class="navbar navbar-inverse" role="navigation">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <h3 class="masthead-brand"><a href="#home" class="animatedScroll">SHIVIN SAXENA</a></h3>
-            </div>
-            
-            <nav id="navbar" class="collapse navbar-collapse">
-                <ul class="nav masthead-nav">
-                    <li><a href="#ww" class="animatedScroll">About</a></li>
-                    <li><a href="#projectsSection" class="animatedScroll">Projects</a></li>
-                    <li><a href="assets/files/Resume_Shivin_Saxena.pdf">Resume</a></li>
-                    <li><a href="https://www.linkedin.com/in/shivinsaxena" target="_blank">LinkedIn</a></li>
-                    <li><a href="#customfooter" class="animatedScroll">Contact</a></li>
-                </ul>
-            </nav>
-        </nav>
-    </div>
-    
-    <div id="home" class="site-wrapper">
-        <div class="site-wrapper-inner">
-            <div class="cover-container">
-                <div class="inner cover">
-                    <h1 id="coverTitle">Hi, I'm Shivin Saxena</h1>
-                    <p id="coverSubTitle" class="lead">I'm a UX Researcher and Developer</p>
-                    <p class="lead" style="margin-top: 40px">
-                        <h1>
-<!--
-                            <a href="#ww" class="btn btn-lg btn-default animatedScroll"><span class="glyphicon glyphicon-menu-down"></span>
-                            </a>
--->
-                             <a href="#ww" class="animatedScroll downArrow"><img id="downArrow" src="assets/images/icons/down_arrow_2.png" alt="Read More"></a>
-                        </h1>
-                    </p>
-                </div> 
-            </div>
+		<!-- Worthy core CSS file -->
+		<link href="css/style.css" rel="stylesheet">
+
+		<!-- Custom css --> 
+		<link href="css/custom.css" rel="stylesheet">
+	</head>
+
+	<body class="no-trans">
+		<!-- scrollToTop -->
+		<!-- ================ -->
+		<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
+
+		<!-- header start -->
+		<!-- ================ --> 
+		<header class="header fixed clearfix navbar navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+
+						<!-- header-left start -->
+						<!-- ================ -->
+						<div class="header-left clearfix">
+
+							<!-- logo -->
+							<div class="logo smooth-scroll">
+								<a href="#banner"><img id="logo" src="images/M_logo.png" alt="Worthy"></a>
+							</div>
+
+							<!-- name-and-slogan -->
+							<div class="site-name-and-slogan smooth-scroll">
+								<div class="site-name"><a href="#banner">Malvika Bansal</a></div>
+								<div class="site-slogan">Aspiring UX/Interaction Designer</div>
+							</div>
+
+						</div>
+						<!-- header-left end -->
+
+					</div>
+					<div class="col-md-8">
+
+						<!-- header-right start -->
+						<!-- ================ -->
+						<div class="header-right clearfix">
+
+							<!-- main-navigation start -->
+							<!-- ================ -->
+							<div class="main-navigation animated">
+
+								<!-- navbar start -->
+								<!-- ================ -->
+								<nav class="navbar navbar-default" role="navigation">
+									<div class="container-fluid">
+
+										<!-- Toggle get grouped for better mobile display -->
+										<div class="navbar-header">
+											<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+												<span class="sr-only">Toggle navigation</span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+											</button>
+										</div>
+
+										<!-- Collect the nav links, forms, and other content for toggling -->
+										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
+											<ul class="nav navbar-nav navbar-right">
+<!--												<li class="active"><a href="#banner">Home</a></li>-->
+												<li><a href="#about">About</a></li>
+												<!--<li><a href="#services">Services</a></li>-->
+												<li><a href="#portfolio">Portfolio</a></li>
+<!--                                                <li><a href="photography.html">Gallery</a></li>-->
+												<!--<li><a href="#clients">Clients</a></li>-->
+												<li><a href="files/Malvika_Bansal_Resume.pdf">Resume</a></li>
+                                                <li><a href="#contact">Contact</a></li>
+											</ul>
+										</div>
+
+									</div>
+								</nav>
+								<!-- navbar end -->
+
+							</div>
+							<!-- main-navigation end -->
+
+						</div>
+						<!-- header-right end -->
+
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- header end -->
+
+		<!-- banner start -->
+		<!-- ================ -->
+		<div id="banner" class="banner">
+			<div class="banner-image"></div>
+			<div class="banner-caption">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 object-non-visible" data-animation-effect="fadeIn">
+							<h1 class="text-center">Hi! I'm <span>Malvika.</span></h1>
+							<p class="lead text-center">I'm a recent graduate from Indiana University, Indianapolis (IUPUI) with a Master's degree in Human Computer Interaction. I'm actively seeking opportunities in User Experience and Interaction Design/Research.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- banner end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="section clearfix object-non-visible" data-animation-effect="fadeIn">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 id="about" class="title text-center">About <span>Me</span></h1>
+						<p class="lead text-center">Front-end enthusiast. Aspiring UX Designer.</p>
+						<div class="space"></div>
+						<div class="row">
+							<div class="col-md-6">
+								<img src="images/section-image-1.png" alt="">
+								<div class="space"></div>
+							</div>
+							<div class="col-md-6">
+                                <p>I'm a recent graduate from Indiana University, Indianapolis with a M.S in Human-Computer Interaction. I previously received my Bachelor’s degree in Computer Engineering from the University of Pune, India.</p> 
+                                <p>At the School of Informatics and Computing, I aimed to enhance my HCI skills, with a strong focus toward the study of user experience design with Natural User Interfaces (using gestural interactions) and also, front end design for web apps, mobile appls and content intensive websites.</p> 
+                                <p>My key strengths lie in UX fundamentals and programming with front-end languages. I've been blessed with several opportunities to work with passionate individuals including my peers, PhD candidates and expert faculty members from diverse backgrounds who have helped me acquire research and practical exposure with a deeper, balanced understanding of interaction and user experience design in varied contexts.</p>
+								
+								<!--<ul class="list-unstyled">
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Lorem ipsum dolor sit amet</li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Reiciendis deleniti neque aliquid</li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Ipsam fuga error commodi</li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Lorem ipsum dolor sit amet</li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Dignissimos molestiae necessitatibus</li>
+								</ul>-->
+							</div>
+						</div>
+						<div class="space"></div>
+						<h2>Work Experience</h2>
+						<div class="row">
+							<div class="col-md-6">
+								<p>I have briefly worked as a Software Engineer at Persistent Systems Ltd, India where I contributed as part of development team that worked on proprietary Business Intelligence and Analytics tools.</p>
+								<p>At the School of Informatics & Computing (IUPUI) I've worked as part of the Philanthropic Informatics Research Lab (PIRL) supervised by Dr. Amy Voida. Here I've mostly contributed to a research project that explored the advocacy of blogger networks and my responsibilities primarily focussed on exploring and developing optimum network visualization designs using D3.js and custom web-crawler script and paper writing.</p>
+								<p>I was also a co-Teaching Assistant for the course Collaborative & Social Computing, taught by Dr. Amy Voida, in the Fall of 2014. Here I primarily responsible for evaluating graduate learning in a seminar-based classroom.</p>
+							</div>
+							<div class="col-md-6">
+								<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingOne">
+											<h4 class="panel-title">
+												<a data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+													Philanthropic Informatics Research Lab, IUPUI - Research Assistant
+												</a>
+											</h4>
+										</div>
+										<div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
+											<div class="panel-body">
+												(Aug 2013 - May 2015) <br />Developing browser extention, web-crawler and visualization to using D3.js and JavaScript, and studying the advocacy of blogger networks.
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingTwo">
+											<h4 class="panel-title">
+												<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+													Collaborative & Social Computing, IUPUI - Teaching Assistant
+												</a>
+											</h4>
+										</div>
+										<div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+											<div class="panel-body">
+												(Aug 2014 - Dec 2014) <br />Evaluated graduate student learning for core course.
+											</div>
+										</div>
+									</div>
+									<div class="panel panel-default">
+										<div class="panel-heading" role="tab" id="headingThree">
+											<h4 class="panel-title">
+												<a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+													Persistent Systems Ltd., India - Software Engineer
+												</a>
+											</h4>
+										</div>
+										<div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
+											<div class="panel-body">
+												(Dec 2012 - Jul 2013) <br />Worked on a prorietary BI tool and created prototypes using Dojo/C++ and as part of a 15 member team.
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<!--<div class="section translucent-bg bg-image-1 blue">
+			<div class="container object-non-visible" data-animation-effect="fadeIn">
+				<h1 id="services"  class="text-center title">Worthy Services</h1>
+				<div class="space"></div>
+				<div class="row">
+					<div class="col-sm-6">
+						<div class="media">
+							<div class="media-body text-right">
+								<h4 class="media-heading">Service 1</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+							</div>
+							<div class="media-right">
+								<i class="fa fa-cog"></i>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-body text-right">
+								<h4 class="media-heading">Service 2</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+							</div>
+							<div class="media-right">
+								<i class="fa fa-check"></i>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-body text-right">
+								<h4 class="media-heading">Service 3</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+							</div>
+							<div class="media-right">
+								<i class="fa fa-desktop"></i>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-body text-right">
+								<h4 class="media-heading">Service 4</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+							</div>
+							<div class="media-right">
+								<i class="fa fa-users"></i>
+							</div>
+						</div>
+					</div>
+					<div class="space visible-xs"></div>
+					<div class="col-sm-6">
+						<div class="media">
+							<div class="media-left">
+								<i class="fa fa-leaf"></i>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Service 5</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-left">
+								<i class="fa fa-area-chart"></i>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Service 6</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-left">
+								<i class="fa fa-child"></i>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Service 7</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+							</div>
+						</div>
+						<div class="media">
+							<div class="media-left">
+								<i class="fa fa-codepen"></i>
+							</div>
+							<div class="media-body">
+								<h4 class="media-heading">Service 8</h4>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure aperiam consequatur quo quis exercitationem reprehenderit dolor vel ducimus, voluptate eaque suscipit iste placeat.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>-->
+		<!-- section end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<!--<div class="default-bg space blue">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-8 col-md-offset-2">
+						<h1 class="text-center">Let's Work Together!</h1>
+					</div>
+				</div>
+			</div>
+		</div>-->
+		<!-- section end -->
+        
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="section">
+			<div class="container">
+				<h1 class="text-center title" id="portfolio">Portfolio</h1>
+				<div class="separator"></div>
+				<p class="lead text-center">Shown below are my recent works in interaction design, user experience design and research.</p>
+				<br>			
+				<div class="row object-non-visible" data-animation-effect="fadeIn">
+					<div class="col-md-12">
+
+						<!-- isotope filters start -->
+						<div class="filters text-center">
+							<ul class="nav nav-pills">
+								<li class="active"><a href="#" data-filter="*">All</a></li>
+								<li><a href="#" data-filter=".int-design">Interaction Design</a></li>
+								<li><a href="#" data-filter=".usability-eval">Usability Evaluation</a></li>
+								<li><a href="#" data-filter=".research">HCI Research</a></li>
+							</ul>
+						</div>
+						<!-- isotope filters end -->
+
+						<!-- portfolio items start -->
+						<div class="isotope-container row grid-space-20">
+							<div class="col-sm-6 col-md-3 isotope-item int-design">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/logo_1.png" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-1">
+											<i class="fa fa-search-plus"></i>
+											<span>Interaction Design</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-1">Prox (Capstone)</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-1" tabindex="-1" role="dialog" aria-labelledby="project-1-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-1-label">Prox - Rapid Information Propogation via Beacons</h4>
+											</div>
+											
+                                            <div class="modal-body">
+												<h3>Project Summary</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p class="projectText">(Year long, independent HCI capstone project)</p>
+                                                        <p class="projectText">Most information in several neighborhoods and educational campuses is generally available in many different ways like flyers, bulletin boards or online like social media sites, mailing lists etc. but is often delivered very late or in a manner that is easy to ignore. Another bottleneck is that most often, users only pay attention or are limited to information relevant to their workplace/building/school etc. and might miss out on several fun/important activities being held elsewhere on the premises.</p>
+                                                        <p class="projectText">Inspired from Apple's iBeacon tech and location/context aware research, Prox is a design concept that aims at rapid and context aware information disimmination via a localized network of LE Bluetooth beacons. ‘Prox’ runs on smartphones as a native app and listens for incoming notifications when the user is in proximity of a beacon.</p>
+                                                        
+												<!--<p><img src="images/projectImages/prox_context.png" alt=""></p>-->
+                                                        
+													
+                                                        <h3>Design Process</h3>
+                                                        <ul>
+                                                            <li>Conceptual Design</li>
+                                                            <li>Personas and User Scenarios</li>
+                                                            <li>User Research and Requirements</li>                                                                 <li>Gathering</li>
+                                                            <li>Rapid Sketching</li>
+                                                            <li>Participatory Design</li>
+                                                            <li>Iterative Wireframing and Paper Prototyping</li>
+                                                            <li>Cognitive Walkthroughs and User Testing</li>
+                                                            <li>Iterative High Fidelity Prototypes</li>
+                                                            <li>User Evaluation</li>
+                                                        </ul>
+                                                
+                                                        <h3>Deliverable</h3>
+														<p class="projectText">A highly interactive prototype that has been refined over the course of the course timeline through multiple interations of design and feedback from real users, and detailed usability reports documenting the design process applied and findings from user evaluations.</p>
+                                                    </div>
+                                                
+                                                    <div class="col-md-6">
+                                                        <img src="images/projectImages/prox_2.png" alt="">
+                                                    </div>
+                                                </div>
+                                            </div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-primary" data-dismiss="modal" onClick="window.open('files/H681 Bansal Final Project Report.pdf');">Project Report</button>
+                                                <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+							<div class="col-sm-6 col-md-3 isotope-item int-design">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/logo_2.png" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-2">
+											<i class="fa fa-search-plus"></i>
+											<span>Interaction Design</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">OLSM Dice (Arduino)</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-2" tabindex="-1" role="dialog" aria-labelledby="project-2-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-2-label">OLSM Universal Dice (Arduino Prototype)</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p class="projectText">This 3 week project was geared towards learning and designing a physical product prototype using the Arduino redboard. The focus of the project was on physical protottyping skills and using Arduino components.
+)</p>
+                                                        <p class="projectText">A number of table top games use multi-sided dice and it can really be annoying to deal with a number of die, specially in games such as Dungeons&Dragons etc. Our solution was a univeral die concept that could be rolled as any X-sided dice (2,4,6,8,10,20 etc).</p>
+                                                        <p class="projectText">The retain the experience of rolling an actual die, the product was designed such that it would offer a novel, yet slightly familiar experience. This was facilitated by simulating the rolling experience with a flex sensor to detect and measure a roll, audio feedback and an affordance that the device could be held and even used as a prop in the game.</p>
+													
+                                                        <h3>Design Process</h3>
+                                                        <ul>
+                                                            <li>Design Ideation</li>
+                                                            <li>Sketching</li>
+                                                            <li>Story boarding</li>                                                                 <li>Gathering</li>
+                                                            <li>Physical Prototyping (with Arduino)</li>
+                                                            <li>User Testing</li>
+                                                        </ul>
+                                                
+                                                        <h3>Deliverable</h3>
+														<p class="projectText">An interactive physical prototype that sufficiently demonstrates the use of physical prototyping skiils, usage of arduino components and tested with some users representing the target user profile.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/projectImages/olsm.png" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+                                                <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal" onClick="window.open('files/Team OLSM - H564 Midterm Project Report.pdf');">Project Report</button>
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+							
+							<div class="col-sm-6 col-md-3 isotope-item int-design">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/logo_3.png" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-3">
+											<i class="fa fa-search-plus"></i>
+											<span>Interaction Design</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-3">Wallfie</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-3" tabindex="-1" role="dialog" aria-labelledby="project-3-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-3-label">Wallfie - Interactive Photo Wall (Prototyping)</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p class="projectText">This 3 week project was geared towards designing an interactive product prototype and while doing so, documenting the entire design process with a special focus at explaining design considerations, decisions and iterative prototyping to address key issues.</p>
+                                                        <p class="projectText">Wallfie is a large screen interactive photo wall, which can be used at the theme parks, malls' resting areas, or points of interests. The screen allows users to take personal and group photos with customizable selected backgrounds and accessories that can be selected and cycled through with gestures. To take a photo, all users on the screen say “Cheese!”. At the end of each session, the system prints a paper photo card with QR code that allows users to download their digital photo, and information how to receive a printed photograph. When no users are taking photos, the display defaults to a slideshow of photos of people who took pictures previously with the system. </p>
+													
+                                                        <h3>Design Process</h3>
+                                                        <ul>
+                                                            <li>Sketching</li>
+<li>Story boarding</li>
+<li>Paper Prototyping</li>
+<li>Cognitive Walkthroughs</li>
+<li>Interactive prototyping using Axure (and HTML/CSS)</li>
+<li>User Testing and Evaluation</li>
+                                                        </ul>
+                                                
+                                                        <h3>Deliverable</h3>
+														<p class="projectText">An interactive physical prototype that sufficiently demonstrates the use of diverse prototyping skiils, a working interactive prototype refined over the course of the project duration with iterative testing and feedback.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/projectImages/wallfie.png" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+                                                <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal" onClick="window.open('files/Wallfie - H564 Final Report.pdf');">Project Report</button>
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+							
+							<div class="col-sm-6 col-md-3 isotope-item usability-eval">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/logo_4.png" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-4">
+											<i class="fa fa-search-plus"></i>
+											<span>Usability Evaluation</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-4">Mathspace</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-4" tabindex="-1" role="dialog" aria-labelledby="project-4-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-4-label">Mathspace - UX Design and Usability Evaluation</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p class="projectText">Mathspace is a popular guided math learning program, available on both Android and iOS that promotes math learning through structured exercises with appropriate feedback. In this project, the team (of 3 students) worked closely with representatives from Mathspace to extend user engagement through gamification. Specifically, the team was asked to explore and recommend alternate user interface designs for the existing version of the app and integrate a dashboard and reward mechanism based on the concept of ‘Growth Mindset’ with an aim at promoting motivated learning and more visible progress than the app currently supported.</p>
+													
+                                                        <h3>Design Process</h3>
+                                                        <ul>
+                                                            <li>Sketching</li>
+<li>Iterative Wireframing</li>
+<li>Usability Testing (think aloud, task-based)</li>
+                                                        </ul>
+                                                
+                                                        <h3>Deliverable</h3>
+														<p class="projectText">A detailed report documenting the design process, proposed design changes and evalution results from the usability testing sessions conducted that compared the existing UI design with the proposed interface.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/projectImages/mathspace.png" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+                                                <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal" onClick="window.open('files/Mathspace_UsabilityTest_Report.pdf');">Project Report</button>
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+							
+							<div class="col-sm-6 col-md-3 isotope-item research">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/logo_5.png" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-5">
+											<i class="fa fa-search-plus"></i>
+											<span>Research</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-5">Data Morphed Topographies</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-5" tabindex="-1" role="dialog" aria-labelledby="project-5-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-5-label">Data Morphed Topographies for Improving Precision with Touchless Interactions on Large Displays</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Research Context</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p class="projectText">Large, high-resolution displays enable efficient visualization of large datasets. To interact with such visualizations, touchless interfaces can potentially support fluid interaction at different distances from the display. But touchless gestures lack haptic feedback, thereby causing users’ gestures to unintentionally move off interface elements and requiring additional effort to perform accurate actions. To mitigate this problem, we introduce Data-Morphed Topographies (DMTs): adaptive constraints on cursor movements that guide touchless interaction along the structure of visualized data. We present three topography primitives—holes, valleys, and pits—which map to common visualization primitives, such as nodes, lines, and regions. In a controlled comparison with unconstrained touchless input, participants were significantly more precise with DMTs, and did not perceive significantly more workload. The efficacy of DMTs was significantly greater in more difficult tasks. By morphing data visualizations into virtual topographies, our work is a crucial first step to improve the precision of touchless input.</p>
+													
+                                                        <h3>Role in Research Team</h3>
+                                                        <ul>
+                                                            <li>Initial Ideation and Task Design</li>
+<li>UI design and Research Prototype Development (C#, WPF)</li>
+<li>Secondary Investigator for User Testing</li>
+                                                            <li>Presented preliminary research concept at Ubicomp (Seattle, 2014)</li>
+                                                        </ul>
+                                                
+                                                        <h3>Prior Research</h3>
+														<p class="projectText">This work is based on previous investigation and research design as illustrated in our submission at Ubicomp 2014: <a href="http://dl.acm.org/citation.cfm?doid=2638728.2638736" target="_blank">Holes, Pits, and Valleys: Guiding Large - Display Touchless Interactions with Data-Morphed Topographies.</a></p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/projectImages/dmt.png" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-primary" data-dismiss="modal" onClick="window.open('files/dmt_ubicomp.pdf');">Ubicomp 2014</button>
+                                                <button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+							
+							<div class="col-sm-6 col-md-3 isotope-item research">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/logo_6.png" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-6">
+											<i class="fa fa-search-plus"></i>
+											<span>Research</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-6">Advocacy of Networks</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-6" tabindex="-1" role="dialog" aria-labelledby="project-6-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-6-label">Advocacy of Networks</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Research Context</h3>
+												<div class="row">
+													<div class="col-md-6">
+                                                        <p class="projectText">Online social networks can exist both explicitly, through a structured list of connections in one’s social network platform and also, implicitly, through the links that connect websites with one another. While an extensive amount of research exists on the user experience and value of explicit social networks, most research on implicit networks is limited and studies massive samples from the Internet or focuses on understanding large scale networks within a specific domain.</p> 
+
+<p class="projectText">The proposed research aims to fill a significant gap in our understanding of online social networks by exploring the user experience of implicit social networks, that are rendered by one’s experience on the Internet, with a specific emphasis on philanthropic advocacy. The research will undertake two phases of empirical inquiry, bridged by a development phase. The first phase will comprise of semi-structured interviews with individual bloggers followed by longitudinal deployment of a technology probe with these users. Development of the probe for more targeted data collection will bridge the two phases.</p>
+													
+                                                        <h3>Role in Research Team</h3>
+                                                        <ul>
+                                                            <li>Co-developer for the technical probe (visualiztion and web-crawler) and used technologies such as JavaScript, D3 (Data-Driven Documents) and MySQL database.</li>
+                                                            <li>Assisted in paper writing</li>
+                                                        </ul>
+													</div>
+													<div class="col-md-6">
+														<img src="images/projectImages/social.png" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+							
+							<div class="col-sm-6 col-md-3 isotope-item int-design">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/logo_7.png" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-7">
+											<i class="fa fa-search-plus"></i>
+											<span>Interaction Design</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-7">HomeTurf</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-7" tabindex="-1" role="dialog" aria-labelledby="project-7-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-7-label">HomeTurf - Connecting Neighbours Everywhere</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p class="projectText">Home Turf is a mobile app concept inspired from conventional “community notice boards” that allow people to connect with each other within a local community. Users in the proposed system will be able to request for shared rides, share /buy / sell items, display notices, seek help or relevant information with others in the community in the context any of the following settings: college dorm, workplace, apartment complex etc. Users can choose to remain selectively anonymous and participate in instant communication with neighbors which may to mutual exchange of personal details to facilitate an exchange or transaction.
+</p>
+													
+                                                        <h3>Design Process</h3>
+                                                        <ul>
+                                                            <li>Conceptualization</li>
+<li>Requiremets Gathering (Surveys, Informal interviews)</li>
+<li>Sketching</li>
+<li>Low-fidelity protyping (paper)</li>
+<li>Cognitive Walkthroughs</li>
+<li>Interactive Prototype (programmed using Android SDK + Eclipse)</li>
+<li>Usability Testing</li>
+<li>Evaluation and design recommendations</li>
+                                                        </ul>
+                                                
+                                                        <h3>Deliverable</h3>
+														<p class="projectText">A detailed report documenting the entire design process from initial concept building to evaluation results from testing an interactive prototype with relevant users and proposed changes to fix design issues.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/projectImages/hometurf.png" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+                                                <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal" onClick="window.open('files/HomeTurfReport.pdf');">Project Report</button>
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+							
+							<div class="col-sm-6 col-md-3 isotope-item int-design">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/logo_8.png" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-8">
+											<i class="fa fa-search-plus"></i>
+											<span>Interaction Design</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-8">DressWiser</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-8" tabindex="-1" role="dialog" aria-labelledby="project-8-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-8-label">DressWiser - A Smart Mirror Assistant</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p class="projectText">DressWiser is a smart-mirror concept that aims to serve as a personalised and effective assistant that helps overcome everyday dressing-up and related decision-making. With this goal in mind, the target audience includes all members of a household with an active lifestyle, average to high social interaction and who commute to work, school or social events. DressWiser is context and location aware and offers dressing recommendations, destination updates etc. based on the context of use and user's wardrobe. The “Primary” user group is young professionals and students, especially women (owing to a relatively larger wardrobe inventory to choose from). Users should ideally be somewhat familiar with smart device interaction using touch and gesture commands.
+</p>
+													
+                                                        <h3>Design Process</h3>
+                                                        <ul>
+                                                            <li>Conceptualization</li>
+<li>Requiremets Gathering (Surveys, Informal interviews)</li>
+<li>Sketching</li>
+<li>Low-fidelity protyping (paper)</li>
+<li>Cognitive Walkthroughs</li>
+<li>Interactive Prototype (HTML/CSS/JavaScript)</li>
+<li>Usability Testing</li>
+<li>Evaluation and design recommendations</li>
+                                                        </ul>
+                                                
+                                                        <h3>Deliverable</h3>
+														<p class="projectText">A detailed report documenting the entire design process from initial concept building to evaluation results from testing an interactive prototype with relevant users and proposed changes to fix design issues.</p>
+													</div>
+													<!--<div class="col-md-6">
+														<img src="images/portfolio-2.jpg" alt="">
+													</div>-->
+												</div>
+											</div>
+											<div class="modal-footer">
+                                                <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal" onClick="window.open('files/DressWiserReport.pdf');">Project Report</button>
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+							<div class="col-sm-6 col-md-3 isotope-item usability-eval">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/logo_9.png" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-9">
+											<i class="fa fa-search-plus"></i>
+											<span>Usability Evaluation</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-9">Flickr</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-9" tabindex="-1" role="dialog" aria-labelledby="project-9-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-9-label">Flickr - Usability and Evaluation Study</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p class="projectText">A Usability and User Experience Evaluation (semester long) study of the Flickr desktop website and Android mobile app conducted as part of the course Usability and Evaluative Methods.</p>
+													
+                                                        <h3>Design Process</h3>
+                                                        <ul>
+                                                            <li>Heuristic Evaluation</li>
+<li>Cognitive Walkthroughs</li>
+<li>Usability Testing</li>
+<li>Evaluation and design recommendations</li>
+                                                        </ul>
+                                                
+                                                        <h3>Deliverable</h3>
+														<p class="projectText">A detailed report documenting the usability testing and evaluation methodologies to asses the usability of Flickr's mobile (android) app and desktop website (as of Nov 2013).</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/projectImages/flickr.png" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+                                                <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal" onClick="window.open('files/FlickrMidtermReport.pdf');">Project Report - 1</button>
+                                                <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal" onClick="window.open('files/FlickrFinaltermReport.pdf');">Project Report - 2</button>
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+							<div class="col-sm-6 col-md-3 isotope-item int-design">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/logo_10.png" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-10">
+											<i class="fa fa-search-plus"></i>
+											<span>Interaction Design</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-10">EduPanion</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-10" tabindex="-1" role="dialog" aria-labelledby="project-10-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-10-label">EduPanion - Assistive Portal for Teachers</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Webapp prototype created as part of the online HCI course offered by Coursera and taught by Prof. Scott Klemmer (Stanford University) in 2012.</p>
+														<p>The online course served as a valuable introduction to HCI fundamentals and techniues. The course curriculum was as under:
+                                                        <ul>
+                                                            <li>Heuristic Evaluation</li>
+<li>Introduction to HCI (HCI, Power of Prototyping, Evaluating Designs)</li>
+<li>Needfinding (Participant Observation, Interviewing, Other strategies)</li>
+<li>Rapid Prototyping (Paper prototypes, Wizard of Oz, Videos, Comparing Alternatives)</li>
+                                                            <li>Heuristic Evaluation</li>
+                                                            <li>Direct Manipulations and Representations (Mental models, Direct manipulation, Distributing cognition)</li>
+                                                            <li>Visual and Information Design (Typography, Reading and Navigating, Grids and Alignment, Visual Design)</li>
+                                                        </ul>
+                                                        </p>
+                                                    <h3>Deliverable</h3>
+														<p class="projectText">An interactive prototype demonstrating the main screens and core funtionality of the proposed product.</p>
+													</div>
+													<!--<div class="col-md-6">
+														<img src="images/portfolio-10.jpg" alt="">
+													</div>-->
+												</div>
+											</div>
+											<div class="modal-footer">
+                                                <button type="button" class="btn btn-sm btn-primary" data-dismiss="modal" onClick="window.open('https://dl.dropboxusercontent.com/u/37055351/Full%20Site/HCI_Assign3/home.html');">Prototype</button>
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+							<!--<div class="col-sm-6 col-md-3 isotope-item web-design">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-11.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-11">
+											<i class="fa fa-search-plus"></i>
+											<span>Web Design</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-11">Saga 2012</a>
+								</div>
+								<!-- Modal 
+								<div class="modal fade" id="project-11" tabindex="-1" role="dialog" aria-labelledby="project-11-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-11-label">Saga 2012 - College TechFest Website</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-11.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end 
+							</div>-->
+
+							<!--<div class="col-sm-6 col-md-3 isotope-item app-development">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/portfolio-12.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-12">
+											<i class="fa fa-search-plus"></i>
+											<span>App Development</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-12">Project Title</a>
+								</div>
+								<!-- Modal 
+								<div class="modal fade" id="project-12" tabindex="-1" role="dialog" aria-labelledby="project-12-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-12-label">Project Title</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Project Description</h3>
+												<div class="row">
+													<div class="col-md-6">
+														<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque sed, quidem quis praesentium, ut unde. Quae sed, incidunt laudantium nesciunt, optio corporis quod earum pariatur omnis illo saepe numquam suscipit, nemo placeat dignissimos eius mollitia et quas officia doloremque ipsum labore rem deserunt vero! Magnam totam delectus accusantium voluptas et, tempora quos atque, fugiat, obcaecati voluptatibus commodi illo voluptates dolore nemo quo soluta quis.</p>
+														<p>Molestiae sed enim laboriosam atque delectus voluptates rerum nostrum sapiente obcaecati molestias quasi optio exercitationem, voluptate quis consequatur libero incidunt, in, quod. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos nobis officiis, autem earum tenetur quidem. Quae non dicta earum. Ipsum autem eaque cum dolor placeat corporis quisquam dolorum at nesciunt.</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/portfolio-12.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end 
+							</div> -->
+
+						</div>
+						<!-- portfolio items end -->
+					
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="section translucent-bg bg-image-4 pb-clear">
+			<div class="container object-non-visible" data-animation-effect="fadeIn">
+				<h1 id="clients" class="title text-center">Activity Feed</h1>
+				<div class="space"></div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="media testimonial">
+							<div class="media-left">
+								<img src="images/phone_icon.png" alt="">
+							</div>
+							<div class="media-body">
+								<h3 class="media-heading">UX Design Challenge</h3>
+								<blockquote>
+									<p>Organized by Interaction Design Foundation, UXPA-Indiana Chapter and Gravity Drive.</p>
+									<footer>Indianapolis - <cite title="Source Title">Sep 25, 2015</cite></footer>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="media testimonial">
+							<div class="media-left">
+								<img src="images/phone_icon.png" alt="">
+							</div>
+							<div class="media-body">
+								<h3 class="media-heading">Design Challenge-OzCHI'15</h3>
+								<blockquote>
+									<p>24-hour student design challenge to solve a given HCI research problem. </p>
+									<footer>Indianapolis - <cite title="Source Title">Aug 8, 2015</cite></footer>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="media testimonial">
+							<div class="media-left">
+								<img src="images/location_icon.png" alt="">
+							</div>
+							<div class="media-body">
+								<h3 class="media-heading">Around the Country!</h3>
+								<blockquote>    
+									<p>Travels with parents through Niagara, Austin, Dallas, Portland.</p>
+									<footer>May 29, 2015 - <cite title="Source Title">Jun 30, 2015</cite></footer>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="media testimonial">
+							<div class="media-left">
+								<img src="images/badge_icon.png" alt="">
+							</div>
+							<div class="media-body">
+								<h3 class="media-heading">Graduation!</h3>
+								<blockquote>
+									<p>Graduated with a Master's degree in Human Computer Interaction.</p>
+									<footer>Indianapolis - <cite title="Source Title">May 10, 2015</cite></footer>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="media testimonial">
+							<div class="media-left">
+								<img src="images/ppt_icon.png" alt="">
+							</div>
+							<div class="media-body">
+								<h3 class="media-heading">HCI Capstone Presentation</h3>
+								<blockquote>
+									<p>Presented Capstone project poster to a diverse audience at IUPUI. </p>
+									<footer>Indianapolis - <cite title="Source Title">May 2, 2015</cite></footer>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4">
+						<div class="media testimonial">
+							<div class="media-left">
+								<img src="images/ppt_icon.png" alt="">
+							</div>
+							<div class="media-body">
+								<h3 class="media-heading">Ubicomp 2014</h3>
+								<blockquote>
+									<p>Presented ongoing research study poster at Ubicomp'14 in Seattle.</p>
+									<footer>Seattle - <cite title="Source Title">Sep 19, 2014</cite></footer>
+								</blockquote>
+							</div>
+						</div>
+					</div>
+				</div>
+                <br/><br/>
+			</div>
         </div>
-    </div>
-    
-    <div id="ww">
-	    <div class="container-fluid">
-			<div class="row">
-<!--				<div class="col-lg-8 col-lg-offset-2 centered">-->
-                <div class="col-lg-2"></div>
-                <div class="col-lg-8 centered">
-					<img src="assets/images/user.png" alt="profile_icon" class="centered">
-                    <p><h2 class="tagLine">Programmer.<br />
-                    UX, Usability Researcher.<br />
-                    Geek. Gamer. Avid Food Lover.</h2></p>
-                
-                    <h2 class="descText">Hi, I'm Shivin! I strive to create effective interfaces.</h2>
-				<hr />	
-                    <p class="descText">I'm a recent M.S. Human Computer Interaction graduate from Indiana University, Indianapolis (IUPUI). A UX driven developer at heart, I strive to create intuitive and minimal interfaces and exploring novel forms of interaction. 
-                        <I>Currently, I consult as a UX Researcher at a Fortune 500 pharmaceutical company, evaluating interfaces with a focus on user-centered design and offering key analytics and insights to stakeholders.</I></p>
-                
-                    <div class="reportBtn">
-                        <a class="btn btn-default btn-lg reportBtn" href="about.html">Read More</a>
-                    </div>
-				
-				</div> <!-- end col-lg-8 -->
-                <div class="col-lg-2"></div>
-			</div><!-- /row -->
-        </div><!-- /container -->
-	</div><!-- /ww -->
-    
-    <!-- Projects Section -->
-    <section id="projectsSection" class="container-fluid centered" ng-app="ProjectWidgetsGenerator" ng-controller="ProjectWidgetsController as widgetCntrl">
 
-        <div class="row">
-            <div class="col-lg-3"></div>
-            <div class="col-lg-6 centered" style="text-align:center">
-                <h1 id="postsSectionHeader">PROJECTS</h1>
-                <hr />
-<!--
-                <ul class="nav nav-pills">
-                    <li ng-class="{active: widgetCntrl.isView(1)}" class="filterTabs">
-                        <a href ng-click="widgetCntrl.setView(1)">All</a>
-                    </li>
-                    <li ng-class="{active: widgetCntrl.isView(2)}" class="filterTabs">
-                        <a href ng-click="widgetCntrl.setView(2)">UX/IxD</a>
-                    </li>
-                    <li ng-class="{active: widgetCntrl.isView(3)}" class="filterTabs">
-                        <a href ng-click="widgetCntrl.setView(3)">Usability Testing</a>
-                    </li>
-                    <li ng-class="{active: widgetCntrl.isView(4)}" class="filterTabs">
-                        <a href ng-click="widgetCntrl.setView(4)">Prototyping</a>
-                    </li>
-                    <li ng-class="{active: widgetCntrl.isView(5)}" class="filterTabs">
-                        <a href ng-click="widgetCntrl.setView(5)">Research</a>
-                    </li>
-                </ul>
-                <hr />
--->
-            </div>
-            <div class="col-lg-3"></div>
-        </div>
-                
-<!--                <p id="projectdesc">Showcased below are my most recent projects in interaction design, prototyping or user experience research and design. Please click the projects below to read more about them.</p>   -->
-                <!--<hr>-->
-                <!--<div class="alert alert-info"><span>#ux #ixd #usability #prototyping #research #wireframing #ideation</span></div>-->
+		<!-- footer start -->
+		<!-- ================ -->
+        <footer id="footer">
+
+			<!-- .footer start -->
+			<!-- ================ -->
+			<div class="footer section">
+            <!--<div class="section translucent-bg bg-image-2 pb-clear">-->
+				<div class="container">
+					<h1 class="title text-center" id="contact">Contact Me</h1>
+<!--					<div class="space"></div>-->
+					<div class="row">
+                        <div class="col-sm-2"></div>
+                        <div class="col-sm-8">
+							<div class="footer-content text-center">
+								<p class="large text-center">If my work and expertise interests you, please feel free to get in touch with me!</p>
+								<ul class="list-icons">
+									<li><i class="fa fa-map-marker pr-10"></i> Indianapolis, IN - USA</li>
+									<li><i class="fa fa-phone pr-10"></i> +1 317-701-7963</li>
+									<li><i class="fa fa-envelope-o pr-10"></i> malvikabansal10@gmail.com</li>
+								</ul>
+								
+                                <ul class="social-links text-center">
+									<li class="linkedin"><a target="_blank" href="http://in.linkedin.com/in/malvikabansal"><i class="fa fa-linkedin"></i></a></li>
+                                    <li class="facebook"><a target="_blank" href="https://www.facebook.com/malvika.bansal.3"><i class="fa fa-facebook"></i></a></li>
+									<!--<li class="twitter"><a target="_blank" href="https://twitter.com/HtmlcoderMe"><i class="fa fa-twitter"></i></a></li>-->
+									<li class="googleplus"><a target="_blank" href="https://plus.google.com/u/0/+malvikabansal1007/about"><i class="fa fa-google-plus"></i></a></li>
+									<!--<li class="skype"><a target="_blank" href="http://www.skype.com"><i class="fa fa-skype"></i></a></li>-->
+									<!--<li class="youtube"><a target="_blank" href="http://www.youtube.com"><i class="fa fa-youtube"></i></a></li>-->
+									<li class="flickr"><a target="_blank" href="https://www.flickr.com/photos/malvikabansal/"><i class="fa fa-flickr"></i></a></li>
+									<!--<li class="pinterest"><a target="_blank" href="http://www.pinterest.com"><i class="fa fa-pinterest"></i></a></li>-->
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-2"></div>
+					</div>
+				</div>
+			</div>
+			<!-- .footer end -->
+
+			<!-- .subfooter start -->
+			<!-- ================ -->
+			<div class="subfooter" style="background: #2980b9; color: white;">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<p class="text-center">Copyright © 2015 Malvika Bansal</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- .subfooter end -->
+
+		</footer>
+		<!-- footer end -->
+
+		<!-- JavaScript files placed at the end of the document so the pages load faster
+		================================================== -->
+		<!-- Jquery and Bootstap core js files -->
+		<script type="text/javascript" src="plugins/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- Modernizr javascript -->
+		<script type="text/javascript" src="plugins/modernizr.js"></script>
+
+		<!-- Isotope javascript -->
+		<script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
+		
+		<!-- Backstretch javascript -->
+		<script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
+
+		<!-- Appear javascript -->
+		<script type="text/javascript" src="plugins/jquery.appear.js"></script>
+
+		<!-- Initialization of Plugins -->
+		<script type="text/javascript" src="js/template.js"></script>
+
+		<!-- Custom Scripts -->
+		<script type="text/javascript" src="js/custom.js"></script>
+    
+        <!-- Contact Form Script -->
+		<script type="text/javascript" src="contact_form.js"></script>
         
-        <!-- Projects Section -->
-        <div class="container-fluid top-buffer-md">
-            <div class="row bottom-buffer-lg">
-                
-                <!-- Blank column -->
-                <div class="col-sm-1">
-                </div>
-                
-                <!-- Blog title and meta -->
-                <div class="col-sm-10">
-                    <div class="row">
-                        <div class="col-sm-6 col-md-4 col-lg-3 widgetParentContainer" ng-repeat="widget in widgetCntrl.posts" ng-show="{{widget.categoryExp}}">
-                            <a href="{{widget.pageLink}}">
-                                <div class="blogPostTemplate">
-                                        <h1 class="blogTitle">{{widget.widgetTitle}}</h1>
-<!--                                        <span class="widgetDescription">{{widget.widgetDescription}}</span>-->
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Blank column -->
-                <div class="col-sm-1">
-                </div>
-                
-            </div>
-        </div> <!-- end blog-post container -->
-        
-    </section><!-- end of Projects Sections -->
-    
-    <!-- Footer -->
-    <div id="customfooter" class="container-fluid centered">
-			<div class="row">
-				
-                <!-- blank column -->
-                <div class="col-sm-1"></div>
-                
-                <!-- footer main content -->
-                <div class="col-sm-10">
-                    <div class="row">
-                        
-                        <div class="col-sm-4">
-                            <h4><span class="glyphicon glyphicon-envelope"></span>&nbsp;&nbsp;Contact Me</h4>
 
-                            <p>
-                                Email: <a class="externalLinks"  href="mailto:shivin.saxena@gmail.com">shivin.saxena@gmail.com</a><br/>
-                                Phone: +1 317-441-1963<br/>
-                                Indianapolis, IN - USA.
-                            </p>
-                        </div><!-- /col-lg-4 -->
-
-                        <!-- blank column -->
-                        <div class="col-sm-1"></div>
-
-                        <div class="col-sm-2">
-                            <h4><span class="glyphicon glyphicon-user"></span>&nbsp;&nbsp;Find Me On</h4>
-                            <p>
-                                <a class="externalLinks" href="http://www.quora.com/Shivin-Saxena">Q  &nbsp;&nbsp;Quora</a><br/>
-<!--
-                                <div class="media">
-                                    <div class="media-left">
-                                        <a href="#">
-                                            <img class="media-object icons-img-responsive" src="assets/icons/facebook_white.png" alt="facebook-icon">
-                                        </a>
-                                    </div>
-                                    <div class="media-body">
-                                        <a class="externalLinks media-heading"  href="https://www.facebook.com/shivin.saxena">Facebook</a>
-                                    </div>
-                                </div>
--->
-                                <a class="externalLinks"  href="https://www.facebook.com/shivin.saxena"><i class="fa fa-facebook-official fa-fw"></i> Facebook</a><br/>
-                                <a class="externalLinks"  href="https://plus.google.com/u/0/+ShivinSaxena/about"><i class="fa fa-google-plus-square fa-fw"></i> Google+</a><br/>
-                                <a class="externalLinks"  href="https://twitter.com/ShivinSaxena1"><i class="fa fa-twitter-square fa-fw"></i> Twitter</a><br/>
-                                <a class="externalLinks"  href="https://instagram.com/shivin_saxena/"><i class="fa fa-instagram fa-fw"></i> Instagram</a><br/>
-                            </p>
-                        </div><!-- /col-lg-4 -->
-                        
-                        <!-- blank column -->
-                        <div class="col-sm-1"></div>
-
-                        <div class="col-sm-4">
-                            <h4><span class="glyphicon glyphicon-comment"></span>&nbsp;&nbsp;Hello, World! Let's talk.</h4>
-                            <p>Please feel free to contact me to know more about me and my work.</p>
-                        </div><!-- /col-lg-4 -->
-                     </div>
-			     </div>
-                
-                 <!-- blank column -->
-                <div class="col-sm-1"></div>
-                
-            </div> <!-- end main footer row -->
-	</div>
-
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/angular.min.js"></script>
-    <script src="js/projectWidgetsGenerator.js"></script>
-    
-    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
-    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
-    
-    <script>
-        jQuery(document).ready(function($) 
-        {
-            $(".animatedScroll").click(function(event) {		
-                    event.preventDefault();
-                    $('html,body').animate({scrollTop:$(this.hash).offset().top}, 500);
-                });
-        });  
-    </script>
-    
-    <!-- script to control navbar box-shadow effect -->
-    <script>
-        $(window).scroll(function(){
-            w = Math.floor( $(window).scrollTop() );  
-            $('.remove').css( 'box-shadow', '' ); 
-            if(w < $('#ww').offset().top || w >= $('#customfooter').offset().top)
-                 $('#customNavbar').css( 'box-shadow', '' );   
-            else
-                $('#customNavbar').css({
-                    'box-shadow':'0px 3px 10px 0px rgba(119, 119, 119, 0.75)',
-                    '-moz-box-shadow':'0px 3px 10px 0px rgba(119, 119, 119, 0.75)',
-                    '-webkit-box-shadow':'0px 3px 10px 0px rgba(119, 119, 119, 0.75)'
-                });
-        }); 
-    </script>
-    
-    <!-- Hover effects on blog posts -->
-    <script>
-        $(document).ready(function(){
-            $("div.blogPostTemplate").hover(
-                function(){
-                    $(this).animate({
-                        backgroundColor: "#009688", /*1abc9c*/
-                        color: "white"
-                    },"fast");
-                    $(this).find(".blogTitle").animate({
-                        color: "white"
-                    },"fast");
-                },                     
-                function(){
-                    $(this).animate({
-                        backgroundColor: "#ecf0f1", 
-                        color: "#black"
-                    },"fast");
-                    $(this).find(".blogTitle").animate({
-                        color:"#424242"
-                    },"fast");
-                }
-            );
-            
-            $("a.btnReadMore").hover(
-                function(){
-                    $(this).css({
-                        "background-color":"#6E6E6E",
-                        "color": "white",
-                        "border-color": "#6E6E6E"
-                    });
-                },
-                function(){
-                    $(this).css({
-                        "background-color":"#fff",
-                        "color": "#333",
-                        "border-color": "#ccc"
-                    });
-            });
-        
-        });
-    </script>
-    
-    
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-<!--    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>-->
-    
-</body>
+	</body>
 </html>

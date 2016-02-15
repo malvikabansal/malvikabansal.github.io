@@ -1,0 +1,137 @@
+Prox
+
+Project Summary
+This 3 week project was geared towards learning and designing a physical product prototype using the Arduino redboard. The focus of the project was on physical protottyping skills and using Arduino components.
+
+A number of table top games use multi-sided dice and it can really be annoying to deal with a number of die, specially in games such as Dungeons&Dragons etc. Our solution was a univeral die concept that could be rolled as any X-sided dice (2,4,6,8,10,20 etc).
+
+The retain the experience of rolling an actual die, the product was designed such that it would offer a novel, yet slightly familiar experience. This was facilitated by simulating the rolling experience with a flex sensor to detect and measure a roll, audio feedback and an affordance that the device could be held and even used as a prop in the game.
+
+
+Design Process
+Design Ideation
+Sketching
+Story boarding
+Physical Prototyping (with Arduino)
+User Testing
+
+
+Deliverable
+An interactive physical prototype that sufficiently demonstrates the use of physical prototyping skiils, usage of arduino components and tested with some users representing the target user profile.
+
+------------------------------------------------------
+
+OLSM
+
+Project Description
+This 3 week project was geared towards learning and designing a physical product prototype using the Arduino redboard. The focus of the project was on physical protottyping skills and using Arduino components. )
+
+A number of table top games use multi-sided dice and it can really be annoying to deal with a number of die, specially in games such as Dungeons&Dragons etc. Our solution was a univeral die concept that could be rolled as any X-sided dice (2,4,6,8,10,20 etc).
+
+The retain the experience of rolling an actual die, the product was designed such that it would offer a novel, yet slightly familiar experience. This was facilitated by simulating the rolling experience with a flex sensor to detect and measure a roll, audio feedback and an affordance that the device could be held and even used as a prop in the game.
+
+Design Process
+<li>Design Ideation
+<li>Sketching
+<li>Story boarding
+<li>Gathering
+<li>Physical Prototyping (with Arduino)
+<li>User Testing
+
+Deliverable
+An interactive physical prototype that sufficiently demonstrates the use of physical prototyping skiils, usage of arduino components and tested with some users representing the target user profile.
+
+----------------------------------------------------------
+
+WALLFIE
+
+Project Description
+This 3 week project was geared towards designing an interactive product prototype and while doing so, documenting the entire design process with a special focus at explaining design considerations, decisions and iterative prototyping to address key issues.
+
+Wallfie is a large screen interactive photo wall, which can be used at the theme parks, malls' resting areas, or points of interests. The screen allows users to take personal and group photos with customizable selected backgrounds and accessories that can be selected and cycled through with gestures. To take a photo, all users on the screen say “Cheese!”. At the end of each session, the system prints a paper photo card with QR code that allows users to download their digital photo, and information how to receive a printed photograph. When no users are taking photos, the display defaults to a slideshow of photos of people who took pictures previously with the system. 
+
+Design Process
+<li>Sketching</li>
+<li>Story boarding</li>
+<li>Paper Prototyping</li>
+<li>Cognitive Walkthroughs</li>
+<li>Interactive prototyping using Axure (and HTML/CSS)</li>
+<li>User Testing and Evaluation</li>
+
+Deliverable
+An interactive physical prototype that sufficiently demonstrates the use of diverse prototyping skiils, a working interactive prototype refined over the course of the project duration with iterative testing and feedback.
+
+------------------------------------------------------
+
+Mathspace
+
+Product Description
+Mathspace is a popular guided math learning program, available on both Android and iOS that promotes math learning through structured exercises with appropriate feedback. In this project, the team (of 3 students) worked closely with representatives from Mathspace to extend user engagement through gamification. Specifically, the team was asked to explore and recommend alternate user interface designs for the existing version of the app and integrate a dashboard and reward mechanism based on the concept of ‘Growth Mindset’ with an aim at promoting motivated learning and more visible progress than the app currently supported.
+
+Design Process
+<li>Sketching</li>
+<li>Iterative Wireframing</li>
+<li>Usability Testing (think aloud, tas-based)</li>
+
+Deliverable
+A detailed report documenting the design process, proposed design changes and evalution results from the usability testing sessions conducted that compared the existing UI design with the proposed interface.
+
+------------------------------------------------------
+
+HomeTurf
+
+Product Description
+Home Turf is a mobile app concept inspired from conventional “community notice boards” that allow people to connect with each other within a local community. Users in the proposed system will be able to request for shared rides, share /buy / sell items, display notices, seek help or relevant information with others in the community in the context any of the following settings: college dorm, workplace, apartment complex etc. Users can choose to remain selectively anonymous and participate in instant communication with neighbors which may to mutual exchange of personal details to facilitate an exchange or transaction.
+
+Design Process
+<li>Conceptualization</li>
+<li>Requiremets Gathering (Surveys, Informal interviews)</li>
+<li>Sketching</li>
+<li>Low-fidelity protyping (paper)</li>
+<li>Cognitive Walkthroughs</li>
+<li>Interactive Prototype (programmed using Android SDK + Eclipse)</li>
+<li>Usability Testing</li>
+<li>Evaluation and design recommendations</li>
+
+Deliverable
+A detailed report documenting the entire design process from initial concept building to evaluation results from testing an interactive prototype with relevant users and proposed changes to fix design issues.
+
+------------------------------------------------------
+
+DressWiser
+
+Product Description
+DressWiser is a smart-mirror concept that aims to serve as a personalised and effective assistant that helps overcome everyday dressing-up and related decision-making. With this goal in mind, the target audience includes all members of a household with an active lifestyle, average to high social interaction and who commute to work, school or social events. DressWiser is context and location aware and offers dressing recommendations, destination updates etc. based on the context of use and user's wardrobe. The “Primary” user group is young professionals and students, especially women (owing to a relatively larger wardrobe inventory to choose from). Users should ideally be somewhat familiar with smart device interaction using touch and gesture commands.
+
+Design Process
+<li>Conceptualization</li>
+<li>Requiremets Gathering (Surveys, Informal interviews)</li>
+<li>Sketching</li>
+<li>Low-fidelity protyping (paper)</li>
+<li>Cognitive Walkthroughs</li>
+<li>Interactive Prototype (HTML/CSS/JavaScript)</li>
+<li>Usability Testing</li>
+<li>Evaluation and design recommendations</li>
+
+Deliverable
+A detailed report documenting the entire design process from initial concept building to evaluation results from testing an interactive prototype with relevant users and proposed changes to fix design issues.
+
+-----------------------------------------------------
+
+Flickr
+
+Product Description
+A Usability and User Experience Evaluation (semester long) study of the Flickr desktop website and Android mobile app conducted as part of the course Usability and Evaluative Methods.
+
+Design Process
+<li>Heuristic Evaluation</li>
+<li>Cognitive Walkthroughs</li>
+<li>Usability Testing</li>
+<li>Evaluation and design recommendations</li>
+
+Deliverable
+A detailed report documenting the usability testing and evaluation methodologies to asses the usability of Flickr's mobile (android) app and desktop website (as of Nov 2013). 
+
+
+
+
