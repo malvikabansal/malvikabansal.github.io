@@ -38,6 +38,11 @@
         <!-- Lightbox CSS --> 
         <link href="css/lightbox.cssl" rel="stylesheet">
         
+        <!-- Angular Bootstrap LightBox -->
+        <link rel="stylesheet" href="css/angular-bootstrap-lightbox.css">
+
+        <link rel="stylesheet" href="css/photoGallery.css">
+
 	</head>
 
 	<body class="no-trans">
@@ -64,7 +69,7 @@
 							<!-- name-and-slogan -->
 							<div class="site-name-and-slogan smooth-scroll">
 								<div class="site-name"><a href="#banner">Malvika Bansal</a></div>
-								<div class="site-slogan">Aspiring UX/Interaction Designer</div>
+								<div class="site-slogan">UX Designer and Researcher</div>
 							</div>
 
 						</div>
@@ -142,13 +147,23 @@
 		</div>
 		<!-- banner end -->
         
+<!--
+        <ul ng-app="photoGallery.js" ng-controller="GalleryCtrl">
+            <li ng-repeat="image in images">
+                <a ng-click="openLightboxModal($index)">
+                    <img ng-src="{{image.thumbUrl}}" class="img-thumbnail" style="width:10%; height:10%;">
+                </a>
+            </li>
+        </ul>
+-->
+
 		<!-- section start -->
 		<!-- ================ -->
 		<div class="section" ng-app="PhotoPostGenerator" ng-controller="PhotoPostController as postCntrl">
 			<div class="container" >
-				<h1 class="text-center title" id="portfolio">Photo Gallery</h1>
+				<h1 class="text-center title" id="portfolio">Gallery</h1>
 				<div class="separator"></div>
-				<p class="lead text-center">Wildlife, Sunsets, Landscapes, Kittens...<br />Showcasing the best my humble lens could capture.</p>
+				<p class="lead text-center">Birds, Sunsets, Landscapes...<br />Showcasing the best my humble lens and inner birder could capture.</p>
 				<br>			
 				<div class="row object-non-visible" data-animation-effect="fadeIn">
 					<div class="col-md-12">
@@ -163,21 +178,33 @@
 							</ul>
 						</div>
 						<!-- isotope filters end -->
-                        
-                        <div class="isotope-container row grid-space-20" ng-controller="MainCtrl">
+                        <!-- ng-controller="MainCtrl" -->
+<!--
+                        <div class="isotope-container row grid-space-20">
                             <div class="col-sm-6 col-md-3 isotope-item int-design" ng-repeat="photopost in postCntrl.posts">
                                 <a href="{{photopost.photoThumbnailSrc}}" data-lightbox="image-1" data-title="My caption">
                                     <img ng-src="{{photopost.photoThumbnailSrc}}" class="img-responsive" alt="" ng-click="toggleModal()">
                                 </a>
                             </div>
                         </div>
+-->
+
+<!--
+                        <a class="testImgLinks" onclick="showModalImg(1)">Img1</a>
+                        <a class="testImgLinks" onclick="showModalImg(1)">Img2</a>
+                        <a class="testImgLinks" onclick="showModalImg(1)">Img3</a>
+                        <a class="testImgLinks" onclick="showModalImg(1)">Img4</a>
+-->
+
+
+
                         
 <!--                        <a class="example-image-link" href="images/gallery/img6.jpg" data-lightbox="example-1"><img class="example-image" src="images/gallery/img6.jpg" alt="image-1" /></a>-->
 
 						<!-- portfolio items start -->
 						<div class="isotope-container row grid-space-20">
 							<div class="col-sm-6 col-md-3 isotope-item int-design" ng-repeat="photopost in postCntrl.posts">
-								<div class="image-box">
+								<div class="image-box" ng-click="createAlert({{photopost.photoID}})">
 									<div class="overlay-container">
 										<img ng-src="{{photopost.photoThumbnailSrc}}" class="img-responsive" alt="">
 										<a class="overlay" data-toggle="modal" data-target="#project-1">
@@ -185,9 +212,11 @@
 											<span>{{photopost.photoCategory}}</span>
 										</a>
 									</div>
-									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-1">{{photopost.photoSubTitle}}</a>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-1">{{photopost.photoCaption}}</a>
 								</div>
+
 								<!-- Modal -->
+<!--
 								<div class="modal fade" id="project-1" tabindex="-1" role="dialog" aria-labelledby="project-1-label" aria-hidden="true">
 									<div class="modal-dialog modal-lg">
 										<div class="modal-content">
@@ -204,10 +233,30 @@
 										</div>
 									</div>
 								</div>
+-->
 								<!-- Modal end -->
 							</div>
 						</div>
 						<!-- portfolio items end -->
+
+<!--
+                        <div id="myModal" class="modal fade" role="dialog">
+                                    <div class="modal-dialog">
+                                        <div class="modal-content">
+                                            <div class="modal-header">
+                                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                            <h4 class="modal-title">Great Job!</h4>
+                                            </div>
+                                            <div class="modal-body">
+                                                <p id="modalText"></p>
+                                            </div>
+                                            <div class="modal-footer">
+                                                <button id="modalCloseBtn" type="button" class="btn btn-default" data-dismiss="modal">Done</button>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+-->
 					
 					</div>
 				</div>
@@ -287,7 +336,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
-							<p class="text-center">Copyright © 2015 Malvika Bansal</p>
+							<p class="text-center">Copyright © 2015 - 2016 Malvika Bansal</p>
 						</div>
 					</div>
 				</div>
@@ -330,8 +379,31 @@
         <script src="modalGenerator.js"></script>
         
         <!-- Lightbox JS script -->
-        <script src="js/lightbox.jsl"></script>
+        <script src="js/lightbox.js"></script>
         <script src="js/lightbox-plus-jquery.min.js"></script>
+
+        <!-- Angular Bootstrap Lightbox -->
+<!--
+        <script src="js/angular-bootstrap-lightbox/angular-bootstrap-lightbox.js"></script>
+        <script src="js/photoGallery.js"></script>
+-->
+
+        <script>
+//        $("a.testImgLinks").click(
+//                function(){
+//                    $('#modalText').text("Yay! You found him in ");
+//                    $('#myModal').modal();
+//                    $("#modalCloseBtn").click(
+//                        function() {
+//                            window.location.href = "leaderboard.html";
+//                    });
+//                });
+            function showModal(val)
+            {
+                $('#modalText').text("Image" + val);
+                $('#myModal').modal();
+            }
+        </script>
 
 	</body>
 </html>
